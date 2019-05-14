@@ -1,0 +1,24 @@
+{
+  "name": "hotreload-test-nuxt",
+  "version": "1.0.0",
+  "description": "My badass Nuxt.js project",
+  "author": "suits-at",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-vue": "^5.0.0",
+    "nodemon": "^1.18.9"
+  }
+}
